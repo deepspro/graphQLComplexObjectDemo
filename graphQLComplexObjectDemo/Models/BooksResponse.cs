@@ -14,7 +14,7 @@ namespace graphQLComplexObjectDemo.Models
         public string Publisher { get; set; }
         public string Description { get; set; }
         public List<Author> Authors { get; set; }
-        public string Category { get; set; }
+        public string[] Categories { get; set; }
     }
 
     public class Author

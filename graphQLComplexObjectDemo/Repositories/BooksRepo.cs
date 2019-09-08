@@ -23,7 +23,9 @@ namespace graphQLComplexObjectDemo.Repositories
                                 LastName = "Schildt"
                             }
                         },
-                        Category = "Programming Languages (Books)"
+                        Categories = new string[] {"Programming Languages (Books)"},
+                        Description = "This book is a comprehensive guide to the Java language, describing its syntax," +
+                        " keywords and fundamental programming principles. "
                     },
                     new Book()
                     {
@@ -43,7 +45,10 @@ namespace graphQLComplexObjectDemo.Repositories
                                 LastName = "Gehrke"
                             }
                         },
-                        Category = "Computer Science Books"
+                        Categories = new string[] {"Computer Science Books", "Computer Databases (Books)" },
+                        Description = "Database Management Systems provides comprehensive and up-to-date" +
+                        " coverage of the fundamentals of database systems. Coherent explanations and" +
+                        " practical examples have made this one of the leading texts in the field."
                     }
                 }
         };
