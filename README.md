@@ -1,6 +1,8 @@
 # graphQL ComplexObject Demo
 
-Example of nested JSON
+This project will give you the knowlege of how to get the data from the complex object by using graphQL.
+
+Example of nested JSON.
 ```
 {
   "response": {
