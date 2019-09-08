@@ -9,9 +9,9 @@ namespace graphQLComplexObjectDemo.GraphQL.Queries
         public ResponseQuery(IBooksRepo booksRepo)
         {
             Field<ResponseType>(
-         "response",
-          resolve: context => booksRepo.GetAll()
-      );
+             "response",
+              resolve: context => booksRepo.GetAll()
+            );
         }
     }
 }

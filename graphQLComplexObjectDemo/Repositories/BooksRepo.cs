@@ -56,5 +56,8 @@ namespace graphQLComplexObjectDemo.Repositories
         {
             return _response;
         }
+
+        public Book GetBookById(int id) => _response.Books.Find(c => c.Id.Equals(id));
+    
     }
 }

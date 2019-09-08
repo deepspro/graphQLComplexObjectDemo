@@ -4,6 +4,7 @@ namespace graphQLComplexObjectDemo.Interface
 {
     public interface IBooksRepo
     {
-       Response GetAll();
+        Response GetAll();
+        Book GetBookById(int id);
     }
 }
