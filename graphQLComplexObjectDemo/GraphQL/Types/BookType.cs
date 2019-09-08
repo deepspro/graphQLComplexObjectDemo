@@ -11,7 +11,7 @@ namespace graphQLComplexObjectDemo.GraphQL.Types
             Field(x => x.Title).Description("Name of the book");
             Field(x => x.Description).Description("Description of the book");
             Field(x => x.Publisher).Description("Publisher of the book");
-            Field(x => x.Category).Description("Category pf the book");
+            Field(x => x.Categories).Description("Category pf the book");
             Field(x => x.Authors, type: typeof(ListGraphType<AuthorType>)).Description("Details of auther");
         }
     }
